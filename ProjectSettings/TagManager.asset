@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Collision
+  - Item
+  - DoctorInRoom
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: AssistentFloor
+    uniqueID: 1689545951
+    locked: 0
+  - name: AssistentRoom
+    uniqueID: 1553068717
+    locked: 0
+  - name: AssistentObject
+    uniqueID: 1170899765
+    locked: 0
+  - name: AssistentPlayer
+    uniqueID: 2935638311
+    locked: 0

@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2837500818464341767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 111933915980872443}
+  - component: {fileID: 2567695453966939520}
+  - component: {fileID: 4378818171216812832}
+  - component: {fileID: 5175749535955139016}
+  - component: {fileID: 6548361147425137022}
+  - component: {fileID: 8432344718526937063}
+  m_Layer: 0
+  m_Name: DoctorScrewDriver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &111933915980872443
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2837500818464341767}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 415.84567, y: 134.55385}
+  m_SizeDelta: {x: 18, y: 104}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2567695453966939520
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2837500818464341767}
+  m_CullTransparentMesh: 1
+--- !u!114 &4378818171216812832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2837500818464341767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: dc4659c2dbfd34349b0a3fde05cef75c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5175749535955139016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2837500818464341767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e1f1ecd14971e5499ec4f350977cae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curve_in:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 3.0424528
+      outSlope: 3.0424528
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.033333335
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: -0
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.6583333
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  curve_out:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverse: 0
+  duration_in: 0.5
+  duration_out: 0
+  start_position: {x: -148, y: 0, z: 0}
+  target_position: {x: -80, y: 0, z: 0}
+  target_position_out: {x: 0, y: 0, z: 0}
+  goBack: 0
+--- !u!114 &6548361147425137022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2837500818464341767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bbef89e813f7604da0b446dcceb53b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assistent_counterpart: {fileID: 662405388418515852, guid: df03c4002fc984041a27a079032dd361, type: 3}
+  received: 0
+  being_drag: 0
+  table_x: -43
+  my_width: 0
+  my_height: 0
+  canvas_width: 0
+  canvas_height: 0
+--- !u!114 &8432344718526937063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2837500818464341767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc72083e52b5f4e4f8357aa9ceffa05d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  properties:
+    type: 2
+  type_sprites:
+  - {fileID: 21300000, guid: dc4659c2dbfd34349b0a3fde05cef75c, type: 3}
+  - {fileID: 21300000, guid: 7cfc23424020eca4c924f98752d2da6b, type: 3}
+  - {fileID: 21300000, guid: 4b8b2b955f5555040adb974c09b80094, type: 3}
+  screwing_sprite: {fileID: 21300000, guid: 5b4fc3230e9cec44ba28d28edcd487ae, type: 3}
+  is_screwing: 0
+  screw_sound: {fileID: 8300000, guid: 4c517fe9c1d8310459835464158306c1, type: 3}
